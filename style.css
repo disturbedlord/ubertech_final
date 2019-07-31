@@ -45,7 +45,7 @@ body{
 
 
 .container1 {
-    position: absolute;
+    position: relative;
     left: 50%;
     transform: translateX(-50%);
     bottom: 0%;
@@ -185,8 +185,8 @@ a {
   color: black;
   display: block;
   position: absolute;
-  right: 10px;
-  top: 0;
+  right: 20px;
+  top: -5px;
 }
 
 
