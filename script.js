@@ -30,10 +30,11 @@ let countDown = new Date('Aug 30, 2019 00:00:00').getTime(),
           document.getElementById('seconds').innerText = Math.floor((distance % (minute)) / second);
       
       //do something later when date is reached
-      //if (distance < 0) {
-      //  clearInterval(x);
-      //  'IT'S MY BIRTHDAY!;
-      //}
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById('ul').style.display = "none";
+          document.getElementById('ul_ele').style.display = "block";
+      }
 
     }, second)
 
@@ -66,3 +67,42 @@ function myFunction() {
 }
 
 
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+
+function workshop(){
+    document.getElementById("workshops_div").style.display = "block";
+}
+
+
+function technical(){
+    document.getElementById("technical_div").style.display = "block";
+}
+
+
+function non_technical(){
+    document.getElementById("non-technical").style.display = "block";
+}
+
+
+function paper_presentation(){
+    document.getElementById("paper-presentation").style.display = "block";
+}

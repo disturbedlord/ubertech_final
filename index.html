@@ -21,9 +21,13 @@
   <a href="#home" class="active">UT'19</a>
   <!-- Navigation links (hidden by default) -->
   <div id="myLinks">
-    <a href="#news">News</a>
-    <a href="#contact">Contact</a>
-    <a href="#about">About</a>
+    <a href="#" id = "workshops" onclick="workshop()">Workshops</a>
+    <a href="#" id = "technical" onclick="technical()">Technical</a>
+    <a href="#" id = "non_techical"
+       onclick="non-technical()">Non-Technical</a>
+    <a href="#" id = "paper_presentation"
+       onclick = "paper-presentation()">Paper Presentation</a>
+
   </div>
     
   <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
@@ -49,20 +53,146 @@
   </div>
       
       <div class="container1">
-<ul>
+<ul id="ul">
     <li><span id="days"></span>days</li>
     <li><span id="hours"></span>Hours</li>
     <li><span id="minutes"></span>Minutes</li>
     <li><span id="seconds"></span>Seconds</li>
   </ul>
+          <p id="ul_ele" style="display: none;">It's Live</p>
 </div>
    
       
 </section>
-<div>Hello</div>
+<div class="workshops" id="workshops_div">
+<section class="hero">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">
+Workshops
+      </h1>
+      <h2 class="subtitle is-5">
+        Learn Something New.
+      </h2>
+    </div>
+  </div>
+    
+    <div class="columns col">
+    
+        <div class="column">
+            <img src="p1.jpg" id = "myImg">
+            <!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+</div>
+        </div>
+        
+        <div class="column">
+            
+             <img src="p2.jpeg" id = "myImg">
+            <!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+</div>
+            
+        </div>
+        
+        <div class="column">
+            <img src="p3.jpg">
+        </div>
+        
+        <div class="column">
+            <img src="p4.jpg">
+        </div>
+    
+    </div>
+    
+</section>
      
+        </div>  
     
+        <div class="technical" id="technical_div">
+<section class="hero">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">
+Technicals
+      </h1>
+      <h2 class="subtitle is-5">
+        Learn Something New.
+      </h2>
+    </div>
+  </div>
     
+    <div class="columns col">
+    
+        <div class="column">
+            <img src="p1.jpg" id = "myImg">
+            <!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+</div>
+        </div>
+        
+        <div class="column">
+            
+             <img src="p2.jpeg" id = "myImg">
+            <!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+</div>
+            
+        </div>
+        
+        <div class="column">
+            <img src="p3.jpg">
+        </div>
+        
+        <div class="column">
+            <img src="p4.jpg">
+        </div>
+    
+    </div>
+    
+</section>
+     
+        </div>  
+    
+  
+        
+        
     </div>
     
     
