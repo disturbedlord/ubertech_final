@@ -1,0 +1,226 @@
+body{
+    margin: 50px 30px;
+/*    width: 100%;*/
+}
+
+.desktop{
+/*    position: absolute;*/
+/*    box-shadow: 5px 10px 18px #888888;*/
+/*    display: block;*/
+    background-color: floralwhite;
+    width: 100%;
+    display: none;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+    width: 100%;
+}
+
+.centered {
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+    color: black;
+    font-size: 1.5vw;
+    font-family: 'Cairo', sans-serif;
+
+  transform: translateX(-50%);
+}
+
+#days , #hours , #minutes , #seconds {
+    padding: 5px 10px;
+    border-bottom: 2px solid;
+    font-size: 20px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.container1 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0%;
+  color: #333;
+  text-align: center;
+    font-family: 'Cairo', sans-serif;
+    font-size: 10px;
+    margin: 10px;
+}
+
+
+.h1 {
+  font-weight: normal;
+}
+
+
+li {
+  display: inline-block;
+  font-size: 1em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+}
+
+li span {
+  display: block;
+  font-size: 2.5vw;
+}
+
+/* The side navigation menu */
+.sidenav {
+  
+  font-family: 'Cairo', sans-serif;
+  font-size: 1.5vw;
+  height: 100%; /* 100% Full-height */
+  width:0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  right: 0;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+      background-color: rgba(0,0,0,0.9); /* Black*/
+
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 1.5vw;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 1.5vw;
+  margin-left: 50px;
+}
+
+.event {
+    font-family: 'Cairo', sans-serif;
+            font-size: 1.2vw;
+    position: absolute;
+    float: right;
+    color: black;
+    top: 48%;
+    right: 0%;
+    
+    transform: translateY(-50%);
+    transform: rotate(-90deg);
+}
+
+.test {
+    display: none;
+    font-size: 5vw;
+}
+
+
+
+/*MOBILE VERSION*/
+
+
+.mobile {
+/*    display: none;*/
+}
+
+.title {
+     font-family: 'Cairo', sans-serif;
+            font-size: 2vw;
+}
+
+.sub{
+    float: left;
+    margin-left: 15% ;
+}
+
+.hero1 {
+    background-color: azure;
+}
+
+/* Style the navigation menu */
+.topnav {
+    color: black;
+  overflow: hidden;
+  background-color: black;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  color: black;
+  display: block;
+  position: absolute;
+  right: 10px;
+  top: 0;
+}
+
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: azure;
+  color: black;
+}
+
+#days_m , #hours_m , #minutes_m , #seconds_m {
+    padding: 5px 10px;
+    border-bottom: 2px solid;
+    
+}
+
+/*
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+*/
+
+
+
+.container_m {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0%;
+  color: #333;
+    
+  text-align: center;
+    font-family: 'Cairo', sans-serif;
+    
+}
+
