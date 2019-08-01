@@ -110,6 +110,7 @@ function paper_presentation(){
 // Step 3 - Instilize the plugin by #id selector
 VANTA.BIRDS({
   el: "#vantajs",
+    quantity: 0.00,
 
 })
 

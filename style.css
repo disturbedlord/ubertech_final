@@ -165,14 +165,14 @@ li span {
 .topnav {
     color: transparent;
   overflow: hidden;
-  background-color: black;
+  background-color: transparent;
   position: relative;
 }
 
 /* Hide the links inside the navigation menu (except for logo/home) */
 .topnav #myLinks {
   display: none;
-    background-color: white;
+    background-color: transparent;
 }
 
 /* Style navigation menu links */
@@ -198,7 +198,7 @@ a {
 
 /* Style the active link (or home/logo) */
 .active {
-  background-color: black;
+  background-color: #091426;
   color: white;
     border-bottom: 2px solid white;
     font-size: 20px;
@@ -322,8 +322,4 @@ a {
 
 .workshops , .technical {
     display: none;
-}
-
-.icon{
-   
 }
