@@ -106,3 +106,11 @@ function non_technical(){
 function paper_presentation(){
     document.getElementById("paper-presentation").style.display = "block";
 }
+
+// Step 3 - Instilize the plugin by #id selector
+VANTA.BIRDS({
+  el: "#vantajs",
+
+})
+
+VANTA.BIRDS('#vantajs')

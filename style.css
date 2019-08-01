@@ -49,7 +49,7 @@ body{
     left: 50%;
     transform: translateX(-50%);
     bottom: 0%;
-  color: #333;
+  color: white;
   text-align: center;
     font-family: 'Cairo', sans-serif;
     font-size: 10px;
@@ -148,7 +148,8 @@ li span {
 
 .title {
      font-family: 'Cairo', sans-serif;
-            font-size: 2vw;
+/*            font-size: 2vw;*/
+    color: white;
 }
 
 .sub{
@@ -157,12 +158,12 @@ li span {
 }
 
 .hero1 {
-    background-color: azure;
+    background-color: transparent;
 }
 
 /* Style the navigation menu */
 .topnav {
-    color: aliceblue;
+    color: transparent;
   overflow: hidden;
   background-color: black;
   position: relative;
@@ -171,32 +172,36 @@ li span {
 /* Hide the links inside the navigation menu (except for logo/home) */
 .topnav #myLinks {
   display: none;
-    background-color: lightgray;
+    background-color: white;
 }
 
 /* Style navigation menu links */
 a {
-  color: yellow;
+  color: white;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 20px;
   display: block;
 }
 
 /* Style the hamburger menu */
 .topnav a.icon {
-  color: teal;
+    text-align: center;
+    margin: 5px;
+  color: white;
   display: block;
   position: absolute;
   right: 20px;
-  top: -5px;
+  top: 0px;
 }
 
 
 /* Style the active link (or home/logo) */
 .active {
-  background-color: azure;
-  color: black;
+  background-color: black;
+  color: white;
+    border-bottom: 2px solid white;
+    font-size: 20px;
 }
 
 #days_m , #hours_m , #minutes_m , #seconds_m {
@@ -317,4 +322,8 @@ a {
 
 .workshops , .technical {
     display: none;
+}
+
+.icon{
+   
 }
